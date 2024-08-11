@@ -1,0 +1,9 @@
+[package]
+name = "generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+perlin-noise = { path = "../.." }
+plotters = { version = "0.3.6", features = ["line_series"] }
+rand = "0.8.5"
